@@ -26,7 +26,7 @@ do{
         printf("Do you wish to continue?: (1 or 2): ");
         scanf("%d", &contd);
     } 
-        else if (numberEntered == numberGenerated){
+        else {
         printf("Correct!\n");
         printf("Your guess is %d", numberEntered);
         printf(" and the number is also %d", numberGenerated);
