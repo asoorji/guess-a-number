@@ -10,6 +10,7 @@ int main()
 do{
     printf("Guess a number (0 - 5): ");
     scanf("%d", &numberEntered);
+    //uses the current time as a seed to generate random numbers
     srand(time(0));
     numberGenerated = (rand() % 5) + 1;
     
